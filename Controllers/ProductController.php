@@ -32,10 +32,10 @@ class ProductController extends Product
                 $order = "`price` ASC";
                 break;
               case 'name':
-                $order = "`price` name";
+                $order = "`name` ASC";
                 break;
               default:
-                $order = "`price` name";
+                $order = "`name` ASC";
                 break;
             };
             break;
